@@ -1,13 +1,5 @@
 {
   "mcpServers": {
-    "playwright": {
-      "command": "npx",
-      "args": ["-y", "@playwright/mcp@0.0.83", "--headless"]
-    },
-    "chrome-devtools": {
-      "command": "npx",
-      "args": ["-y", "chrome-devtools-mcp@1.12.0", "--headless", "--isolated"]
-    },
     "firecrawl": {
       "command": "npx",
       "args": ["-y", "firecrawl-mcp@3.35.0"],
